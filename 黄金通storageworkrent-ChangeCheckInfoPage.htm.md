@@ -17,7 +17,7 @@ SQL INJECTION
 
 [DESCRIPTION] 
 
-A SQL INJECTION  vulnerability exists in the " 黄金通二级系统三代管理端 ".The system's API ’storagework/rentChangeCheckInfoPage.htm ‘ exits a SQL injection. The manipulation of  the argument ’dateStart ‘leads to sql injection.
+A SQL INJECTION  vulnerability exists in the " 黄金通二级系统三代管理端 ".The system's API ’storagework/rentChangeCheckInfoPage.htm ‘ exits a SQL injection. The manipulation of  the argument ’clientname ‘leads to sql injection.
 
 [DETAILS] 
 
