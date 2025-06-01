@@ -3,10 +3,9 @@
  黄金通二级系统三代管理端
 
 fofa ：title="黄金通二级系统三代管理端"
-
-![image-20250601174125078](C:\Users\16523\AppData\Roaming\Typora\typora-user-images\image-20250601174125078.png)
-
 官网： https://113.105.126.146:8900/ 
+![image-20250601174125078](https://github.com/user-attachments/assets/14eb57ae-9517-46e0-a244-159a2476195c)
+
 
 测试账号：admin/123456
 
@@ -16,7 +15,7 @@ SQL INJECTION
 
 [DESCRIPTION] 
 
-A SQL INJECTION  vulnerability exists in the " 黄金通二级系统三代管理端 ".The system's API ’reprotframework/tcCustDeferPosiQuery.htm ‘ exits a SQL injection. The manipulation of  the argument ’dateStart ‘leads to sql injection.
+A SQL INJECTION  vulnerability exists in the " 黄金通二级系统三代管理端 ".The system's API ’reprotframework/tcCustDeferPosiQuery.htm ‘ exits a SQL injection. The manipulation of  the argument ’custTradeId ‘leads to sql injection.
 
 [DETAILS] 
 
@@ -53,7 +52,7 @@ The parameter custTradeId in the request body is vulnerable to SQL injection.
 python3 sqlmap.py -r 3.txt --dbs -batch --force-ssl --level 5 --risk 3 --dbms oracle
 ```
 
-![image-20250601195832698](C:\Users\16523\AppData\Roaming\Typora\typora-user-images\image-20250601195832698.png)
+![image-20250601195832698](https://github.com/user-attachments/assets/6c20f524-f0e7-474d-b389-3937f3fc6f9e)
 
 [Mitigation & Fix Recommendations] 
 Implement parameterized queries (precompiled), use stored procedures if securely coded, and apply input validation/filtering.
