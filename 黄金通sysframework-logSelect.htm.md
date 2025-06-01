@@ -4,11 +4,10 @@
 
 fofa ：title="黄金通二级系统三代管理端"
 
-![image-20250601174125078](C:\Users\16523\AppData\Roaming\Typora\typora-user-images\image-20250601174125078.png)
-
 官网： https://113.105.126.146:8900/ 
 
 测试账号：admin/123456
+![image-20250601174125078](https://github.com/user-attachments/assets/e1985bef-5363-4836-b55a-a384876d9cb2)
 
 [TYPE] 
 
@@ -16,7 +15,7 @@ SQL INJECTION
 
 [DESCRIPTION] 
 
-A SQL INJECTION  vulnerability exists in the " 黄金通二级系统三代管理端 ".The system's API ’sysframework/logSelect.htm ‘ exits a SQL injection. The manipulation of  the argument ’dateStart ‘leads to sql injection.
+A SQL INJECTION  vulnerability exists in the " 黄金通二级系统三代管理端 ".The system's API ’sysframework/logSelect.htm ‘ exits a SQL injection. The manipulation of  the argument 'nodename' leads to sql injection.
 
 [DETAILS] 
 
@@ -49,7 +48,8 @@ page=1&branchtype=01&dateStart=2025-05-01&dateEnd=2025-06-03&nodename=&operuserC
 
 The parameter nodename in the request body is vulnerable to SQL injection.
 
-![image-20250601183733652](C:\Users\16523\AppData\Roaming\Typora\typora-user-images\image-20250601183733652.png)
+![image-20250601183733652](https://github.com/user-attachments/assets/dd819277-9332-4b76-a7e8-2e30eae92094)
+
 
 [Mitigation & Fix Recommendations] 
 Implement parameterized queries (precompiled), use stored procedures if securely coded, and apply input validation/filtering.
