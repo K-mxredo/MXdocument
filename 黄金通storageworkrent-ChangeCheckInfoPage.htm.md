@@ -53,8 +53,8 @@ The parameter clientname in the request body is vulnerable to SQL injection.
 ```
 python3 sqlmap.py -r 2.txt --dbs -batch --force-ssl --level 5 --risk 3 --dbms oracle
 ```
-![image-20250601174125078](https://github.com/user-attachments/assets/a57b9c49-4b1f-4589-b48e-31b870a8d10a)
 
+![image-20250601182030382](https://github.com/user-attachments/assets/6383c7ed-ba6b-43b1-b2bc-92e07ded8249)
 
 [Mitigation & Fix Recommendations] 
 Implement parameterized queries (precompiled), use stored procedures if securely coded, and apply input validation/filtering.
