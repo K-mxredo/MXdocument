@@ -4,7 +4,8 @@
 
 fofa ：title="黄金通二级系统三代管理端"
 
-![image-20250601174125078](https://github.com/user-attachments/assets/c3101135-86b1-4500-825d-5fcb2eacd8c8)
+![图片](https://github.com/user-attachments/assets/7ebf0494-e37e-49d2-807b-2fb85589ce39)
+
 
 
 官网： https://113.105.126.146:8900/ 
