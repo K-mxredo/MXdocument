@@ -4,7 +4,7 @@
 
 fofa ：title="黄金通二级系统三代管理端"
 官网： https://113.105.126.146:8900/ 
-![image-20250601174125078](https://github.com/user-attachments/assets/14eb57ae-9517-46e0-a244-159a2476195c)
+![图片](https://github.com/user-attachments/assets/b15ec67d-1b1f-4fc1-bed1-afd2fa2e5c86)
 
 
 测试账号：admin/123456
