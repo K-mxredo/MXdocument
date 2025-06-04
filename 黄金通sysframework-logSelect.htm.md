@@ -7,7 +7,8 @@ fofa ：title="黄金通二级系统三代管理端"
 官网： https://113.105.126.146:8900/ 
 
 测试账号：admin/123456
-![image-20250601174125078](https://github.com/user-attachments/assets/e1985bef-5363-4836-b55a-a384876d9cb2)
+![图片](https://github.com/user-attachments/assets/c938a171-699c-458e-8102-a6acfbf815f4)
+
 
 [TYPE] 
 
