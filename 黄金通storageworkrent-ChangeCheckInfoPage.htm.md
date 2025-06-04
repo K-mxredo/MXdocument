@@ -1,8 +1,11 @@
 [PRODUCT] 
 
+ Vendor website:
+http://www.brilliance.com.cn/
  黄金通二级系统三代管理端
 
 fofa ：title="黄金通二级系统三代管理端"
+
 
 ![图片](https://github.com/user-attachments/assets/7ebf0494-e37e-49d2-807b-2fb85589ce39)
 
