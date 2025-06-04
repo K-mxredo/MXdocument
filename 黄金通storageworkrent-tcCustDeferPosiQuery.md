@@ -1,5 +1,8 @@
 [PRODUCT] 
 
+ Vendor website:
+http://www.brilliance.com.cn/
+ 
  黄金通二级系统三代管理端
 
 fofa ：title="黄金通二级系统三代管理端"
