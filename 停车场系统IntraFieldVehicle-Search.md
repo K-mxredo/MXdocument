@@ -2,11 +2,11 @@
 
  停车场管理系统   6.2.0
 
-![image-20250601191639502](C:\Users\16523\AppData\Roaming\Typora\typora-user-images\image-20250601191639502.png)
+![图片](https://github.com/user-attachments/assets/04111b5e-4959-4b9c-8ca5-75dff30a6a67)
 
 
 
-官网demo站：https://pms.demo.dasiot.cn/#/login
+Vendor demo website：https://pms.demo.dasiot.cn/#/login
 
 [TYPE] 
 
@@ -37,8 +37,8 @@ Connection: keep-alive
 ```
 
 The parameter 'Value' in the request body is vulnerable to SQL injection.
+![图片](https://github.com/user-attachments/assets/f34a91d9-34cd-48e7-a4c7-f8d5acd63c99)
 
-![image-20250601195735928](C:\Users\16523\AppData\Roaming\Typora\typora-user-images\image-20250601195735928.png)
 
 [Mitigation & Fix Recommendations] 
 Implement parameterized queries (precompiled), use stored procedures if securely coded, and apply input validation/filtering.
