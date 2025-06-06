@@ -2,11 +2,10 @@
 
  停车场管理系统   6.2.0
 
-![image-20250601191639502](C:\Users\16523\AppData\Roaming\Typora\typora-user-images\image-20250601191639502.png)
+![图片](https://github.com/user-attachments/assets/bd84ac6b-17ae-46b2-9317-bb5df4676ecb)
 
 
-
-官网demo站：https://pms.demo.dasiot.cn/#/login
+Vendor demo website：https://pms.demo.dasiot.cn/#/login
 
 [TYPE] 
 
@@ -38,7 +37,8 @@ Connection: keep-alive
 
 The parameter 'vehicleTypeCode ' in the request body is vulnerable to SQL injection.
 
-![image-20250601193216346](C:\Users\16523\AppData\Roaming\Typora\typora-user-images\image-20250601193216346.png)
+![图片](https://github.com/user-attachments/assets/6f4dfe75-dcf8-4a87-baf7-64ef5823e33c)
+
 
 [Mitigation & Fix Recommendations] 
 Implement parameterized queries (precompiled), use stored procedures if securely coded, and apply input validation/filtering.
