@@ -1,4 +1,5 @@
 [PRODUCT]
+
 双重预防机制管理平台
 Website：https://www.hairongtec.com/about?lang=en
 <img width="1987" height="833" alt="图片" src="https://github.com/user-attachments/assets/4cca9d4a-9757-46a4-a144-6f0c3bf471a2" />
