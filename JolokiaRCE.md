@@ -5,9 +5,11 @@ Website：https://www.hairongtec.com/about?lang=en
 
  
 [TYPE]
+
 RCE
 
 [DESCRIPTION]
+
 A jolokia Realm JNDI RCE vulnerability exists in the " 双重预防机制管理平台". This vulnerability can be triggered without authentication and lead to system privilege escalation, posing significant risks.
 
 [DETAILS]
