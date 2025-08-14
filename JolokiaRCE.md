@@ -35,6 +35,7 @@ https://www.jackson-t.ca/runtime-exec-payloads.html
 7.	use exp：https://raw.githubusercontent.com/LandGrey/SpringBootVulExploit/master/codebase/springboot-realm-jndi-rce.py
 
  [RESULTS]
+ 
  use springboot-realm-jndi-rce.py 
  <img width="1967" height="413" alt="图片" src="https://github.com/user-attachments/assets/4aab938a-ee2d-44e6-937f-279026b7ab0d" />
 the JNDI Service
