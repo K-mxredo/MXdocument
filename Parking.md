@@ -15,7 +15,7 @@ Sensitive Data Exposure
 
 [DESCRIPTION] 
 
-A Sensitive Data Exposure  vulnerability exists in the " 停车场管理系统 ".The system's API  is vulnerable to unauthorized access ,allowing unauthenticated users to exploit certain interfaces and retrieve  sensitive user data  posing a critical security risk. T
+A Sensitive Data Exposure  vulnerability exists in the " 停车场管理系统 ".The system's API  is vulnerable to unauthorized access ,allowing unauthenticated users to exploit certain interfaces and retrieve  sensitive user data  posing a critical security risk. 
 
 [DETAILS] 
 
@@ -41,6 +41,7 @@ Connection: keep-alive
 Unauthorized access allows obtaining all users' account credentials, which can be decrypted and used for direct login.
 MD5 decryption
 <img width="2131" height="1011" alt="图片" src="https://github.com/user-attachments/assets/123e6523-44bf-4a58-89bc-48e00a1a13e8" />
+
 
 
 
