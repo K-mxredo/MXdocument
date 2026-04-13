@@ -49,12 +49,10 @@ Connection: keep-alive
 ```
 
 The parameter 'Value' in the request body is vulnerable to SQL injection,Get the current database name:
-<img width="2085" height="1051" alt="image-20260413165637303" src="https://github.com/user-attachments/assets/2a20e4b0-1a10-45c2-9b66-df1475267f67" />
-
+<img width="2407" height="889" alt="image-20260413164311034" src="https://github.com/user-attachments/assets/6063795f-a484-4312-8f05-0e752ea6ce06" />
 
 **Execute command**
-
-<img width="2077" height="723" alt="image-20260413165701422" src="https://github.com/user-attachments/assets/69999f3e-ecd3-469f-973b-298c758b1ee3" />
+<img width="2401" height="613" alt="image-20260413164446950" src="https://github.com/user-attachments/assets/6055f9bb-8539-42c9-8e4e-172a6823d9a2" />
 
 
 #### **[Mitigation & Fix Recommendations]** 
