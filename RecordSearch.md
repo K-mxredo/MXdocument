@@ -27,7 +27,7 @@
 
 #### **[DETAILS]** 
 
-![image-20260413165540031](停车场系统RecordSearch.assets/image-20260413165540031.png)
+<img width="2663" height="1437" alt="image-20260413165540031" src="https://github.com/user-attachments/assets/89c0f318-d45b-4af2-8e36-6da89a179992" />
 
 The specific request packet is as follows, **no authentication required**:
 
@@ -49,11 +49,13 @@ Connection: keep-alive
 
 The parameter 'Value' in the request body is vulnerable to SQL injection,Get the current database name:
 
-![image-20260413165637303](停车场系统RecordSearch.assets/image-20260413165637303.png)
+<img width="2085" height="1051" alt="image-20260413165637303" src="https://github.com/user-attachments/assets/757ea12b-48ca-4730-8621-01522e0597f4" />
+
 
 **Execute command**
 
-![image-20260413165701422](停车场系统RecordSearch.assets/image-20260413165701422.png)
+<img width="2077" height="723" alt="image-20260413165701422" src="https://github.com/user-attachments/assets/fc783727-5c2e-4507-8a50-7bf2d8361de3" />
+
 
 #### **[Mitigation & Fix Recommendations]** 
 
