@@ -2,7 +2,7 @@
 
 #### official website:https://www.csdas.cn/
 
-#### product:https://pms.demo.dasiot.cn/#/login
+#### product:https://www.csdas.cn/product_list.aspx?id=9
 
 #### Affected version: 6.2.0
 
